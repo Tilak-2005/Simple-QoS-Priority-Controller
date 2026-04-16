@@ -1,7 +1,6 @@
 # 🚀 SDN QoS Priority Controller (Mininet + Ryu)
 
 > **Simple QoS Priority Controller**
-
 > Implements traffic classification and QoS using **Ryu Controller + OpenFlow 1.3 + Mininet**
 
 ---
@@ -14,8 +13,6 @@
 * Assign priorities
 * Control bandwidth using queues
 * Improve performance for critical traffic
-
-📄 Based on assignment requirements: 
 
 ---
 
@@ -33,10 +30,10 @@
 
 ```
 .
-├── qos_controller.py      # Ryu controller logic
-├── topology.py            # Mininet topology
-├── test_validation.py     # Automated testing
-├── cleanup_deep.sh        # Reset script
+├── qos_controller.py
+├── topology.py
+├── test_validation.py
+├── cleanup_deep.sh
 └── README.md
 ```
 
@@ -76,8 +73,6 @@ sudo python3 topology.py
 ```bash
 bash cleanup_deep.sh
 ```
-
-Script reference: 
 
 ---
 
@@ -205,8 +200,8 @@ sudo python3 test_validation.py
 # 📚 References
 
 * Ryu Documentation
-* OpenFlow 1.3 Spec
-* Mininet Docs
+* OpenFlow 1.3 Specification
+* Mininet Documentation
 
 ---
 
@@ -224,4 +219,3 @@ sudo python3 test_validation.py
 
 ---
 
-⭐ If this helped, give it a star!
